@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    height: 75px;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 0.5px solid #adadad;
+}
+
+nav img {
+    width: 145px;
+    height: auto;
+    margin: auto 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #353535;
+}
+
+article {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+article p {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    max-width: 800px;
+    letter-spacing: 1px;
+    color: #353535;
+    font-weight: 300;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+.catalogo-picacho {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 85px;
+}
+
+.catalogo-picacho img {
+    width: 45%;
+    box-shadow: 2px 3px 4px #00000066;
+    min-width: 350px;
+}
+
+.catalogo-picacho h3 {
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+.catalogo-picacho p {
+    margin-top: 35px;
+    max-width: 415px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 80%;
+    font-weight: 300;
+}
+
+.catalogo-picacho a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    border-bottom: solid 1px black;;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #202020;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
