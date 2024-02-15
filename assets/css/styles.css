@@ -75,6 +75,7 @@ main {
     width: 45%;
     height: auto;
     margin-top: 85px;
+    min-width: 350px;
 }
 
 .catalogo-picacho img {
@@ -93,7 +94,7 @@ main {
     max-width: 415px;
     text-align: center;
     letter-spacing: 1px;
-    width: 80%;
+    width: 100%;
     font-weight: 300;
 }
 
